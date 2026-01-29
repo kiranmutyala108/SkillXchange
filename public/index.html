@@ -181,13 +181,14 @@
             <h2 class="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-600 dark:from-white dark:to-gray-300" id="header-title">Explore Feed</h2>
 
             <div class="flex items-center space-x-5">
-                
-                <button onclick="toggleTheme()" class="w-10 h-10 rounded-full bg-gray-100/50 dark:bg-gray-700/50 backdrop-blur-sm border border-gray-200/50 dark:border-gray-600/50 flex items-center justify-center text-gray-600 dark:text-yellow-400 transition hover:bg-white dark:hover:bg-gray-600 hover:shadow-md">
-                    <i class="fas fa-moon dark:hidden"></i>
-                    <i class="fas fa-sun hidden dark:block"></i>
-                </button>
+              <button onclick="window.location.href='live-editor.html'" class="text-sm font-semibold text-white bg-emerald-500 hover:bg-emerald-600 px-4 py-2 rounded-full transition shadow-lg hidden sm:inline-flex">Live Editor</button>
 
-                <div class="relative hidden md:block">
+              <button onclick="toggleTheme()" class="w-10 h-10 rounded-full bg-gray-100/50 dark:bg-gray-700/50 backdrop-blur-sm border border-gray-200/50 dark:border-gray-600/50 flex items-center justify-center text-gray-600 dark:text-yellow-400 transition hover:bg-white dark:hover:bg-gray-600 hover:shadow-md">
+                <i class="fas fa-moon dark:hidden"></i>
+                <i class="fas fa-sun hidden dark:block"></i>
+              </button>
+
+              <div class="relative hidden md:block">
                     <div class="flex items-center w-72 px-4 py-2.5 bg-white/40 dark:bg-gray-800/40 border border-gray-200/60 dark:border-gray-600/60 rounded-full focus-within:ring-2 focus-within:ring-brand/50 focus-within:bg-white/70 dark:focus-within:bg-gray-800/70 transition-all shadow-sm backdrop-blur-sm">
                         <i class="fas fa-search mr-3 text-gray-400"></i>
                         <input 
@@ -202,8 +203,8 @@
                 </div>
 
                 <div class="flex items-center space-x-3 pl-4" id="header-auth-section">
-                    <button onclick="window.location.href='login.html'" class="text-sm font-semibold text-gray-600 dark:text-gray-300 hover:text-brand transition">Log in</button>
-                    <button onclick="window.location.href='signup.html'" class="text-sm font-semibold text-white bg-brand hover:bg-brandDark px-5 py-2 rounded-full transition shadow-lg shadow-brand/30">Sign up</button>
+                  <button onclick="window.location.href='login.html'" class="text-sm font-semibold text-gray-600 dark:text-gray-300 hover:text-brand transition">Log in</button>
+                  <button onclick="window.location.href='signup.html'" class="text-sm font-semibold text-white bg-brand hover:bg-brandDark px-5 py-2 rounded-full transition shadow-lg shadow-brand/30">Sign up</button>
                 </div>
             </div>
         </header>
