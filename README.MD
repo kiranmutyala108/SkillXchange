@@ -43,7 +43,7 @@ The focus is on learning, collaboration, and community — not social noise.
 
 ---
 
-## 🎬 NEW: Code Visualizer
+## 🎬 Code Visualizer
 
 **See your code come to life with animations!**
 
