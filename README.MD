@@ -32,11 +32,31 @@ The focus is on learning, collaboration, and community — not social noise.
 
 ## ✨ Key Features
 
-- Skill Exchange between students  
-- Explore / Community Feed  
-- Project & Hackathon Collaboration  
-- Real-time Messaging  
-- Senior–Junior Mentorship Discovery  
+- 🤝 Skill Exchange between students  
+- 🌐 Explore / Community Feed  
+- 🚀 Project & Hackathon Collaboration  
+- 💬 Real-time Messaging  
+- 🎓 Senior–Junior Mentorship Discovery
+- 🎬 **NEW: Code Visualizer** - Animated algorithm execution!
+- 💻 Live Code Editor with preview
+- 🔧 GitHub-integrated Project IDE
+
+---
+
+## 🎬 NEW: Code Visualizer
+
+**See your code come to life with animations!**
+
+The Code Visualizer lets you watch algorithms execute step-by-step with beautiful visual animations. Perfect for learning data structures, algorithms, and understanding how code works.
+
+### Features:
+- ✨ 7+ pre-built algorithm templates (Palindrome, Bubble Sort, Binary Search, etc.)
+- 🎮 Interactive playback controls (play, pause, step forward/backward)
+- ⚡ Adjustable animation speed
+- 📊 Real-time variable tracking
+- 🎨 Beautiful visual representations
+
+**[Try it now →](public/code-visualizer.html)** | **[Read Guide →](CODE_VISUALIZER_GUIDE.md)**
 
 ---
 
@@ -45,7 +65,8 @@ The focus is on learning, collaboration, and community — not social noise.
 1. Students sign up using their college email  
 2. Users post skills, questions, or project ideas  
 3. Peers and seniors discover and connect  
-4. Collaboration happens through real-time chat and discussions  
+4. Collaboration happens through real-time chat and discussions
+5. Use built-in tools (Code Visualizer, Live Editor, IDE) for learning
 
 ---
 
